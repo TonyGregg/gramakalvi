@@ -12,6 +12,7 @@ import { NewsDetailComponent } from './news-detail/news-detail.component';
 import { NewsInfoComponent } from './news-info/news-info.component';
 import { EventsService } from './shared/events.service';
 import { StarsComponent } from './stars/stars.component';
+import { NotFoundComponent } from './not-found/not-found.component';
 
 
 @NgModule({
@@ -24,7 +25,8 @@ import { StarsComponent } from './stars/stars.component';
     NewsInfoComponent,
     NewsDetailComponent,
     EventSearchComponent,
-    StarsComponent
+    StarsComponent,
+    NotFoundComponent
   ],
   imports: [
     BrowserModule,

@@ -1,6 +1,16 @@
 # Gramakalviforall
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.0.
+## Adding git repo to git pages
+-- --- ---- ------ -------- ------- ---
+
+Always follow the latest document from https://github.com/angular-schule/angular-cli-ghpages
+During cli-ghpages install, use @latest
+Use --baseref all the time, Otherwise you get 404 error.  for example.
+ ng deploy --base-href=/gramakalvi/
+  After making changes to the code, 1. Run the ng deploy command (above) and 2. Commit and push it to  github for it to reflect
+My sample organization git page is @ https://tonygregg.github.io/gramakalvi/
+Always use the latest npm before updating angular cli
 
 ## Development server
 
