@@ -1,18 +1,4 @@
-import { Injectable } from '@angular/core';
-
-
-@Injectable({
-  providedIn: 'root'
-})
-export class Event {
-  constructor(
-    public id: number,
-    public title: string,
-    public details: string) {
-
-    }
-
-}
+import { EventOrganizer } from './event-organizer';
 const events = [
   {
     id : 0,
@@ -34,11 +20,13 @@ const events = [
 
 export class EventsService {
 
-  getAllEvents(): Event[] {
-    return events.map( e => new Event(e.id, e.title, e.details));
+  getAllEvents(): EventOrganizer[] {
+    // return events.map( e => new Event(e.id, e.title, e.details));
+    return events.map(e => new EventOrganizer(e.id, e.title, e.title));
+
   }
 
-  getEventById(eventId: number): Event {
+  getEventById(eventId: number): EventOrganizer {
     return events.find(e => e.id === eventId);
   }
 

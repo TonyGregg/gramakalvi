@@ -16,6 +16,7 @@ import { NotFoundComponent } from './not-found/not-found.component';
 import { HealthClinicComponent } from './health-clinic/health-clinic.component';
 import { HomelessReachComponent } from './homeless-reach/homeless-reach.component';
 import { DonateComponent } from './donate/donate.component';
+import { AboutComponent } from './about/about.component';
 
 
 @NgModule({
@@ -32,7 +33,8 @@ import { DonateComponent } from './donate/donate.component';
     NotFoundComponent,
     HealthClinicComponent,
     HomelessReachComponent,
-    DonateComponent
+    DonateComponent,
+    AboutComponent
   ],
   imports: [
     BrowserModule,
