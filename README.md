@@ -11,6 +11,7 @@ Use --baseref all the time, Otherwise you get 404 error.  for example.
   After making changes to the code, 1. Run the ng deploy command (above) and 2. Commit and push it to  github for it to reflect
 My sample organization git page is @ https://tonygregg.github.io/gramakalvi/
 Always use the latest npm before updating angular cli
+In order to compile images correctly use path as following in your components: './assets/images/image.png'
 
 ## Development server
 

@@ -13,6 +13,9 @@ import { NewsInfoComponent } from './news-info/news-info.component';
 import { EventsService } from './shared/events.service';
 import { StarsComponent } from './stars/stars.component';
 import { NotFoundComponent } from './not-found/not-found.component';
+import { HealthClinicComponent } from './health-clinic/health-clinic.component';
+import { HomelessReachComponent } from './homeless-reach/homeless-reach.component';
+import { DonateComponent } from './donate/donate.component';
 
 
 @NgModule({
@@ -26,7 +29,10 @@ import { NotFoundComponent } from './not-found/not-found.component';
     NewsDetailComponent,
     EventSearchComponent,
     StarsComponent,
-    NotFoundComponent
+    NotFoundComponent,
+    HealthClinicComponent,
+    HomelessReachComponent,
+    DonateComponent
   ],
   imports: [
     BrowserModule,
