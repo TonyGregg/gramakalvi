@@ -17,6 +17,8 @@ import { HealthClinicComponent } from './health-clinic/health-clinic.component';
 import { HomelessReachComponent } from './homeless-reach/homeless-reach.component';
 import { DonateComponent } from './donate/donate.component';
 import { AboutComponent } from './about/about.component';
+import { ContactUsComponent } from './contact-us/contact-us.component';
+import { HelpUsComponent } from './help-us/help-us.component';
 
 
 @NgModule({
@@ -34,7 +36,9 @@ import { AboutComponent } from './about/about.component';
     HealthClinicComponent,
     HomelessReachComponent,
     DonateComponent,
-    AboutComponent
+    AboutComponent,
+    ContactUsComponent,
+    HelpUsComponent
   ],
   imports: [
     BrowserModule,
