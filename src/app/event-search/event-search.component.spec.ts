@@ -1,6 +1,6 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
-
 import { EventSearchComponent } from './event-search.component';
+
 
 describe('EventSearchComponent', () => {
   let component: EventSearchComponent;
@@ -19,7 +19,7 @@ describe('EventSearchComponent', () => {
     fixture.detectChanges();
   });
 
-  it('should create', () => {
-    expect(component).toBeTruthy();
+  it(`should have as text 'Search Page' `, () => {
+    expect(component.text).toEqual('Search Page');
   });
 });

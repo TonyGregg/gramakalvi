@@ -6,6 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./event-search.component.css']
 })
 export class EventSearchComponent implements OnInit {
+  text = 'Search Page';
 
   constructor() { }
 
